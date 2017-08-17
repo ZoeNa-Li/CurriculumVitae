@@ -1,14 +1,14 @@
 /*********pop_up_protfolio*****/
 /* Magnific Popup CSS */
 
-/*Pricing table and price blocks*/
-.pricing-plans{
+/*skill table and price blocks*/
+.skill-plans{
 	padding: 6% 0em;
 	background: #282A2E;
 }
 
 /*----*/
-.pricing-grid{
+.skill-grid{
 	width: 30.8%;
 	float: left;
 	border-radius: 5px;
@@ -22,19 +22,19 @@
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.pricing-grid:hover {
+.skill-grid:hover {
 	-webkit-transform: scale(1.04) translateY(-5px);
 	z-index: 1;
 	border-bottom: 0 none;
 	background: #fff;
 }
- .pricing-grid:hover h3 a,.pricing-grid:hover .cart a{
+ .skill-grid:hover h3 a,.skill-grid:hover .cart a{
 	background: #49CBCD;
 }
-.pricing-grid:nth-child(3){
+.skill-grid:nth-child(3){
 	margin-right:0;
 }
-.pricing-grid h3 a{
+.skill-grid h3 a{
 	background:#1BBC9D;
 	padding: 3% 2%;
 	display: block;
@@ -53,7 +53,7 @@
 	padding: 0% 0;
 }
 
-.pricing-grid ul li a{
+.skill-grid ul li a{
 	color:#C0BEBE;
 	font-size:0.9em;;
 	text-align: center;
@@ -64,23 +64,23 @@
 	-moz-transition:0.5s all;;
 	-o-transition:0.5s all;
 }
-.pricing-grid ul li a:hover{
+.skill-grid ul li a:hover{
 	background:#353A42;
 	color:#49CBCD;
 }
 
 /*----*/
-/*------------pricing-tabels--------------------*/
+/*------------skill-tabels--------------------*/
 
 
 /*----*/
-.pricing-grid1{
-	width: 30%;
+.skill-grid1{
+	width: 25%;
 	float: left;
 	padding-bottom: 20px;
 	background: #F4F4F4;
 	text-align: center;
-	margin: 3.8% 3.8% 0 0;
+	margin: 3.8% 7.5% 0 0;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -89,23 +89,23 @@
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.pricing-grid1:hover {
+.skill-grid1:hover {
 	-webkit-transform: scale(1.04) translateY(-5px);
 	z-index: 1;
 	border-bottom: 0 none;
 	background: #fff;
 }
- .pricing-grid1:hover h3 a,.pricing-grid1:hover a j{
+ .skill-grid1:hover h3 a,.skill-grid1:hover a j{
 	background: #49CBCD;
 	box-shadow: 0px 1px 2px #3DB9B9;
 	-webkit-box-shadow: 0px 1px 2px #3DB9B9;
 	-moz-box-shadow: 0px 1px 2px #3DB9B9;
 	-o-box-shadow: 0px 1px 2px #3DB9B9;
 }
-.pricing-grid1:nth-child(4){
+.skill-grid1:nth-child(4){
 	margin-right:0;
 }
-.pricing-grid1 h3 a {
+.skill-grid1 h3 a {
 	background: #F8BC3A;
 	color: #FFF;
 	height: 200px;
@@ -126,11 +126,11 @@
 	top: -100px;
 	margin-bottom: -50px;
 }
-.pricing-grid1 h3 a span{
+.skill-grid1 h3 a span{
 	color: #FFF;
 	font-size: 3em;
 }
-.pricing-grid1 h3 a p{
+.skill-grid1 h3 a p{
 	color: #FFF;
 	font-size: 0.7em;
 	padding-left: 17px;
@@ -146,11 +146,11 @@
 	font-family: 'Noto Sans', sans-serif;
 }
 .sun-title {
-	padding: 7% 0;
+	padding: 0 0;
 	font-size: 0.8em;
 }
 
-.pricing-grid1 ul li a {
+.skill-grid1 ul li a {
 	display:block;
 	margin-bottom: 0.5em;
 	color: #202020;
@@ -165,8 +165,8 @@
 }
 
 /*----*/
-.pricing-grid2{
-	width:30%;
+.skill-grid2{
+	width:25%;
 	float: left;
 	padding-bottom: 20px;
 	border-radius: 5px;
@@ -174,29 +174,29 @@
 	-webkit-border-radius: 5px;
 	background: #F4F4F4;
 	text-align: center;
-	margin: 3.8% 3.8% 0 0;
+	margin: 3.8% 7.5% 0 0;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.pricing-grid2:hover {
+.skill-grid2:hover {
 	-webkit-transform: scale(1.04) translateY(-5px);
 	z-index: 1;
 	border-bottom: 0 none;
 	background: #fff;
 }
- .pricing-grid2:hover h3 a,.pricing-grid2:hover a k{
+ .skill-grid2:hover h3 a,.skill-grid2:hover a k{
 	background: #49CBCD;
 	box-shadow: 0px 1px 2px #3DB9B9;
 	-webkit-box-shadow: 0px 1px 2px #3DB9B9;
 	-moz-box-shadow: 0px 1px 2px #3DB9B9;
 	-o-box-shadow: 0px 1px 2px #3DB9B9;
 }
-.pricing-grid2:nth-child(4){
+.skill-grid2:nth-child(4){
 	margin-right:0;
 }
-.pricing-grid2 h3 a {
+.skill-grid2 h3 a {
 	background: #27AE61;
 	color: #FFF;
 	height: 200px;
@@ -217,16 +217,16 @@
 	top: -100px;
 	margin-bottom: -50px;
 }
-.pricing-grid2 h3 a span{
+.skill-grid2 h3 a span{
 	color: #FFF;
 	font-size: 3em;
 }
-.pricing-grid2 h3 a p{
+.skill-grid2 h3 a p{
 	color: #FFF;
 	font-size: 0.7em;
 	padding-left: 17px;
 }
-.pricing-grid2 ul li a {
+.skill-grid2 ul li a {
 		display:block;
 	margin-bottom: 0.5em;
 	color: #202020;
@@ -239,8 +239,8 @@
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.pricing-grid3{
-	width: 30%;
+.skill-grid3{
+	width: 25%;
 	float: left;
 	padding-bottom: 20px;
 	border-radius: 5px;
@@ -254,23 +254,23 @@
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 }
-.pricing-grid3:hover {
+.skill-grid3:hover {
 	-webkit-transform: scale(1.04) translateY(-5px);
 	z-index: 1;
 	border-bottom: 0 none;
 	background: #fff;
 }
- .pricing-grid3:hover h3 a,.pricing-grid3:hover a l{
+ .skill-grid3:hover h3 a,.skill-grid3:hover a l{
 	background: #49CBCD;
 	box-shadow: 0px 1px 2px #3DB9B9;
 	-webkit-box-shadow: 0px 1px 2px #3DB9B9;
 	-moz-box-shadow: 0px 1px 2px #3DB9B9;
 	-o-box-shadow: 0px 1px 2px #3DB9B9;
 }
-.pricing-grid3:nth-child(4){
+.skill-grid3:nth-child(4){
 	margin-right:0;
 }
-.pricing-grid3 h3 a {
+.skill-grid3 h3 a {
 	background: #2A80B9;
 	color: #FFF;
 	height: 200px;
@@ -291,16 +291,16 @@
 	top: -100px;
 	margin-bottom: -50px;
 }
-.pricing-grid3 h3 a span{
+.skill-grid3 h3 a span{
 	color: #FFF;
 	font-size: 3em;
 }
-.pricing-grid3 h3 a p{
+.skill-grid3 h3 a p{
 	color: #FFF;
 	font-size: 0.7em;
 	padding-left: 17px;
 }
-.pricing-grid3 ul li a {
+.skill-grid3 ul li a {
 	display:block;
 	margin-bottom: 0.5em;
 	color: #202020;
@@ -411,14 +411,14 @@
 	.sun-title a {
 		font-size: 1.3em;
 	}
-	.pricing-grid h3 a,.pricing-grid1 h3 a,.pricing-grid2 h3 a,.pricing-grid3 h3 a,.pricing-grid4 h3 a {
+	.skill-grid h3 a,.skill-grid1 h3 a,.skill-grid2 h3 a,.skill-grid3 h3 a,.skill-grid4 h3 a {
 		font-size: 1.5em;
 	}
 	.span3 i {
 		font-size: 1em;
 		padding: 7px 15px;
 	}
-	.pricing-grid1 h3 a,.pricing-grid2 h3 a,.pricing-grid3 h3 a  {
+	.skill-grid1 h3 a,.skill-grid2 h3 a,.skill-grid3 h3 a  {
 		height: 160px;
 		width: 160px;
 		top: -78px;
@@ -430,28 +430,28 @@
 	{
 		display:none;
 	}
-	.pricing-grid:nth-child(3) {
+	.skill-grid:nth-child(3) {
 		display: none;
 	}
-	.pricing-grid:nth-child(2) {
+	.skill-grid:nth-child(2) {
 		margin-right: 0;
 	}
-	.pricing-grid {
+	.skill-grid {
 		width: 48%;
 		margin-right: 4%;
 	}
 	.sun-title a {
 		font-size: 1.1em;
 	}
-	.pricing-grid1 h3 a, .pricing-grid2 h3 a, .pricing-grid3 h3 a {
+	.skill-grid1 h3 a, .skill-grid2 h3 a, .skill-grid3 h3 a {
 		height: 120px;
 		width: 120px;
 		top: -59px;
 	}
-	.pricing-grid2 h3 a span,.pricing-grid1 h3 a span,.pricing-grid3 h3 a span {
+	.skill-grid2 h3 a span,.skill-grid1 h3 a span,.skill-grid3 h3 a span {
 		font-size: 2.4em;
 	}
-	.pricing-grid1 ul li a,.pricing-grid2 ul li a,.pricing-grid3 ul li a   {
+	.skill-grid1 ul li a,.skill-grid2 ul li a,.skill-grid3 ul li a   {
 		font-size: 0.82355em;
 	}
 	.span3 j,.span3 k,.span3 l {
@@ -469,18 +469,18 @@
 	.payment-online-form-left input[type="text"] {
 		width: 41%;
 	}
-	.pricing-grid1, .pricing-grid2, .pricing-grid3, .pricing-grid4 {
+	.skill-grid1, .skill-grid2, .skill-grid3, .skill-grid4 {
 		width: 30.8%;
 	}
-	.pricing-grid1 h3 a, .pricing-grid2 h3 a, .pricing-grid3 h3 a {
+	.skill-grid1 h3 a, .skill-grid2 h3 a, .skill-grid3 h3 a {
 		height: 90px;
 		width: 90px;
 		top: -45px;
 	}
-	.pricing-grid2 h3 a span, .pricing-grid1 h3 a span, .pricing-grid3 h3 a span {
+	.skill-grid2 h3 a span, .skill-grid1 h3 a span, .skill-grid3 h3 a span {
 		font-size: 1.5em;
 	}
-	.pricing-grid2 h3 a p,.pricing-grid1 h3 a p,.pricing-grid3 h3 a p   {
+	.skill-grid2 h3 a p,.skill-grid1 h3 a p,.skill-grid3 h3 a p   {
 		font-size: 0.6em;
 	}
 }
@@ -490,38 +490,38 @@
 	width: 90%;
 	padding: 0.5em 1em;
 	}
-	.pricing-plans {
+	.skill-plans {
 	padding: 1.5em 0em;
 	}
 	.span3 i {
 		font-size: 0.82355em;
 	}
-	.pricing-grid1,.pricing-grid2{
+	.skill-grid1,.skill-grid2{
 		width: 48%;
 	}
-	.pricing-grid2 {
+	.skill-grid2 {
 		margin: 3.8% 0% 0 0;
 	}
 }
 @media only screen and (max-width: 320px){
-	.pricing-grid {
+	.skill-grid {
 		width: 100%;
 		margin-bottom:3%;
 	}
-	.pricing-grid1, .pricing-grid2{
+	.skill-grid1, .skill-grid2{
 		width: 100%;
 		margin-top: 20%;
 	}	
 	.sun-title {
 		padding: 3% 0;
 	}
-	.pricing-grid ul li a {
+	.skill-grid ul li a {
 		padding: 0.4em 0em;
 	}
-	.pricing-grid:hover {
+	.skill-grid:hover {
 		 background:#313338;
 	}
-	.pricing-grid1 ul li a {
+	.skill-grid1 ul li a {
 		padding: 0.4em 0em;
 	}
 }
