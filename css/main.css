@@ -23,23 +23,24 @@ nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
 /*-----light-font----*/
+html{
+	height: 100%;
+}
 body {
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background:url(../images/bg.jpg) repeat;
-	/*height: 100%;*/
-	/*overflow: hidden;*/
+	height: 100%;
 }
 .big-wrapper{
 	height: 100%;
     position: relative;
     touch-action: none;
-    /*transform: translate(0px, -2364px);*/
     transition: top 1000ms ease;
 }
 .wrap {
 	width: 80%;
 	margin: 0px auto;
-	padding: 3% 0;
+	/*padding: 3% 0;*/
 }
 .header{
 	position: relative;
@@ -476,6 +477,7 @@ a.popup-with-zoom-anim img {
 
 /*---blog--*/
 .blog{
+	height: 100%;
 	padding: 7% 0;
 	background: #EFEFEE;
 }
@@ -592,14 +594,16 @@ display: block;
 	/*padding: 5% 0;*/
 	height: 100%;
 	/*background: rgba(107,187,191,0.3);*/
-	background:rgba(158, 180, 181, 0.3);
+	/*background:rgba(158, 180, 181, 0.3);*/
+	background:#EFEFEE;
+	padding:0;
 }
 .skill-head{
 	text-align:center;
 }
 .skill-head h3{
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #fff;
+	color: #9C7373;
 	font-size: 2.5em;
 	font-weight: 700;
 	text-align: center;
@@ -704,6 +708,7 @@ display: block;
 		padding: 1px;
 	}
 }
+
 @media only screen and (max-width: 1280px) {
 	.wrap{
 		width:95%;
@@ -726,6 +731,76 @@ display: block;
 	a.button.scroll {
 		padding: 1px;
 	}
+		.skill-head h3{
+		font-size:1em;
+	}
+	.skill-head p{
+		display: none;
+	}
+}
+@media only screen and (max-height: 700px){
+	.wrap{
+		padding-top: 3;
+
+	}
+	.wrap h3{
+		padding-top: 0;
+		/*height: 100px;*/
+	}
+	.skill-head{
+		height: 120px;
+		font-size: 0;
+		text-align: center;
+		// padding-left: 45%;
+
+	}
+	.span_1_of_3 {
+    width: 12%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 16%;
+   }
+   .skill-head h3 {
+   	font-size: 22px;
+   	margin-left: 0;
+   }
+   .skill-head p {
+   	margin-bottom: 2%;
+   }
+ .skill-grid1 h3 a {
+  
+    height: 120px;
+    line-height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 0.8em;
+}
+   .skill-grid2 h3 a {
+ 
+    height: 120px;
+    line-height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    font-size: 0.8em;
+}
+	.skill-head p{
+		display: none;
+	}
+}
+@media only screen and (max-height:600px){
+	.skill-head{
+		display: none;
+	}
+	.tm-head{
+		display: none;
+
+	}
+	.tm-head-grid a img{
+		display: none;
+
+	}
+	.tm-head-grid {
+    width: 18.9%;}
 }
 @media only screen and (max-width: 1024px) {
 	.wrap{
@@ -847,6 +922,9 @@ display: block;
 	.logos {
 		display: none;
 	}
+	.skill-head h3{
+		font-size:1em;
+	}
 	
 }
 @media only screen and (max-width: 640px) {
@@ -865,6 +943,9 @@ display: block;
 	}
 	.header h3, .portfoliO h3, .tm-head h3, .ex-head h3, .fun-head h3, .blog-head h3, .studio-head h3, .client-head h3, .skill-head h3, .contact h3 {
 		font-size: 1.2em;
+	}
+	.item3{
+		display: none;
 	}
 	.span_1_of_3 h4 a {
 		font-size: 1em;

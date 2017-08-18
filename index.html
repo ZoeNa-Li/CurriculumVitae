@@ -4,7 +4,7 @@
 <title>LiShuyi | Home </title>
 <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 		 <!-- scroll -->
 		 <script type="text/javascript">
@@ -16,21 +16,24 @@
 					easingType: 'linear' 
 		 		};
 				$().UItoTop({ easingType: 'easeOutQuart' });
+				//var current = 0,pre = 0;
+
 			});
 		</script>
 		 <!-- //scroll -->	
 <link rel="stylesheet" type="text/css" href="css/other.css">
-<!-- 滚动 -->
-<!-- <script>
-window.addEventListener("load",function() {
+<!-- 每次刷新滚动到最开始 -->
+ <script type="text/javascript">
+  window.addEventListener("load",function() {
   setTimeout(function(){
     window.scrollTo(0, 1);
   }, 0);
-});</script> -->
+});
+</script>
 </head>
 <body>
-<!-- header -->	
-  	<header class="header sTop" id="header">
+<div class="big-wrapper" id="big-wrapper">
+	<header class="header sTop" id="header">
 		  	<div class="wrap">
 		  	<div class="blank"></div>
 		  		<h3>李姝怡</h3>
@@ -53,7 +56,7 @@ window.addEventListener("load",function() {
 					<p>旅游</p>
 					<!-- <p><a href="#">MORE</a></p> -->
 				</div>
-				<div class="col_1_of_3 span_1_of_3">
+				<div class="col_1_of_3 span_1_of_3 item3">
 					<img src="images/service3.png" alt="">
 					<h4><a href="#">联系方式</a></h4>
 					<p>Email:lishuyiuestc@163.com </p>
@@ -70,21 +73,14 @@ window.addEventListener("load",function() {
    	  </header>
    		 <!-- header end -->
    		 <!-- start skill -->
-   		    	  <section class="profession-skill s1" id="work">
+   	  <section class="profession-skill s1" id="work">
    		 				<!--Start skill -->
-		  	<div class="skill s5" id="skill">
+		  	<div class="skill s5 wrap" id="skill">
 				<div class="wrap"> 
-					<div class="skill-head">
-						<h3>专业技能</h3>
-						<p>web前端必备基础知识</p>						
-					</div>								
+					<div class="skill-head"><h3>专业技能</h3><p>web前端必备基础知识</p></div>								
 			   	<div class="skill-grids">
 					<div class="skill-grid1">	
-							<h3><a href="#">CSS</a></h3>						
-							<div class="sun-title">
-								<a href="#">Cascading Style Sheets</a>
-							</div>
-										
+							<h3><a href="#">CSS</a></h3>														
 							<ul>
 								<li><a href="#">熟练应用CSS</a></li>
 								<li><a href="#">CSS3新特性</a></li>
@@ -95,9 +91,6 @@ window.addEventListener("load",function() {
 					</div>
 					<div class="skill-grid2">
 							<h3><a href="#">HTML</a></h3>
-								<div class="sun-title">
-									<a href="#">HTML</a>
-								</div>
 										
 							    <ul>
 									<li><a href="#">精通HTML</a></li>
@@ -108,9 +101,6 @@ window.addEventListener("load",function() {
 					</div>
 					<div class="skill-grid3">	
 						<h3><a href="#">JS</a></h3>						
-						<div class="sun-title">
-							<a href="#">javaScript</a>
-						</div>	
 																		
 						<ul>
 							<li><a href="#">精通JavaScript</a></li>
@@ -126,12 +116,11 @@ window.addEventListener("load",function() {
 				<div class="clear"> </div>
    		    </div>
 		</div>
-   		 <!-- end skill -->
-         
+				<!-- end skill -->
+	</section>
   <!-- start-team-members -->
-	  <!-- start-team-members -->
 		<section class="demo-members s2" id="about">
-			<div class="demo" id="demo"> 
+			<div class="demo " id="demo"> 
 				<div class="tm-head">
 					<h3>Demo</h3>
 					<p>小组件开发可以帮助项目节省时间哟</p>
@@ -207,10 +196,11 @@ window.addEventListener("load",function() {
 				</div>
 			
 		</section>
-				<!----//End-blog----> 	 			
+				<!----//End-blog----> 
+		 			
 
 				<!-----logos---->	
-		<footer class="logos"> 
+		<footer class="logos" id="footer"> 
 		   		 	<div class="wrap"> 
 			   		 	<ul>
 			   		 		<li><img src="images/client6.png" alt="电话图标" /><span>18428002978</span></li>
@@ -219,17 +209,17 @@ window.addEventListener("load",function() {
 			   		 	</ul>
 		   		 	</div>
 		</footer>
+		</div>
+</div>
+<!-- header -->	
+     
 
  <!-- scroll_top_btn -->
-		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/move-scroll.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
-		<!-- <script type="text/javascript" src="js/bagImg.toggler.js"></script> -->
 		<script type="text/javascript">
 		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
+			$(document.body).css({ "overflow-y":"hidden"});
 		var num = 6;
 	   setInterval(function(){
 		var bagImg = $("#bag-img");

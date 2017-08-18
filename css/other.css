@@ -75,12 +75,12 @@
 
 /*----*/
 .skill-grid1{
-	width: 25%;
+	width: 27%;
 	float: left;
-	padding-bottom: 20px;
+	padding-bottom: 4%;
 	background: #F4F4F4;
 	text-align: center;
-	margin: 3.8% 7.5% 0 0;
+	margin: 3.8% 10% 0 0;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -166,15 +166,15 @@
 
 /*----*/
 .skill-grid2{
-	width:25%;
+	width:27%;
 	float: left;
-	padding-bottom: 20px;
+	padding-bottom: 4%;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	background: #F4F4F4;
 	text-align: center;
-	margin: 3.8% 7.5% 0 0;
+	margin: 3.8% 10% 0 0;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -242,7 +242,7 @@
 .skill-grid3{
 	width: 25%;
 	float: left;
-	padding-bottom: 20px;
+	padding-bottom: 4%;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -443,10 +443,22 @@
 	.sun-title a {
 		font-size: 1.1em;
 	}
+	.skill-grid2 .sun-title{
+		display: none;
+	}
+	.skill-grid1{
+		margin-bottom: 10%;
+	}
+		.skill-grid1 .sun-title{
+		display: none;
+	}
 	.skill-grid1 h3 a, .skill-grid2 h3 a, .skill-grid3 h3 a {
+		/*display: table;*/
+		vertical-align: middle;
 		height: 120px;
 		width: 120px;
 		top: -59px;
+		font-size: 0.82355em;
 	}
 	.skill-grid2 h3 a span,.skill-grid1 h3 a span,.skill-grid3 h3 a span {
 		font-size: 2.4em;
@@ -457,6 +469,13 @@
 	.span3 j,.span3 k,.span3 l {
 		font-size: 0.8755em;
 	}
+
+   .skill-grid1 h3,  .skill-grid2 h3{
+   	margin-bottom: 20%;
+   }
+	
+}
+}
 }
 @media only screen and (max-width: 640px)
 {
